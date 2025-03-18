@@ -5,7 +5,7 @@ jobs:
   build:
     runs-on: windows-latest
     steps:
-      - uses: actions/download-artifact@v4
+      - uses: actions/download-artifact@v3.1.2
       - uses: actions/checkout@v4
       - uses: mon231/apkpatcher@master
         with:
